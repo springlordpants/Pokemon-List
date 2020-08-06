@@ -9,7 +9,7 @@ $(document).ready(function(){
       string += "<table class='table'>";
 
       $.each(data.results, function(index, item){
-        string +="<tr><td><a href='"+item.url+"'>"+item.name+"</td><td><button class='hide-button btn btn-primary'>Hide</button></td></tr>";
+        string +="<tr><td><a href='"+item.url+"'>"+item.name+"</td><td><button class='hide-button btn btn-outline-light'>Hide</button></td></tr>";
       });
 
       string += "</table>";
